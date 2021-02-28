@@ -1,0 +1,72 @@
+.Link {
+    text-decoration: none;
+    color: #A5D3CE;
+    padding-left: 25px;
+    
+
+}
+    .Link:hover {
+      color: #F6FCFC;
+    }
+.left-side {
+  display: inline-block;
+  width: initial;
+  white-space: nowrap;
+  top: -20%;
+  z-index: inherit;
+}
+.right-side {
+  display: flex;
+flex-direction: row;
+  width: initial;
+  float: right;
+  padding-right: 252px;
+  white-space: nowrap;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 40px;
+  position: absolute;
+  left: 92%;
+  top: -20%;
+  color: #A5D3CE;
+ 
+}
+
+.cart :hover {
+  color: #F6FCFC;
+}
+
+.login__header  {
+  text-decoration: none;
+  font-size: 40px;
+  position: absolute;
+  left: 89%;
+  top: 1%;
+  color: #A5D3CE;
+ 
+}
+
+.login__header :hover {
+  color: #F6FCFC;
+}
+
+.header__optionLineTwo_header__basketCount {
+display: flex;
+}
+.header__optionLineTwo_header__basketCount:hover {
+  color: #A5D3CE;
+}
+
+.logo {
+  height: 200px;
+  padding-right: 1px;
+}
+
+.header__nav {
+  display: flex;
+
+}

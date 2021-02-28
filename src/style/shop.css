@@ -1,0 +1,116 @@
+.shop-products {
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      padding-right: 205px;
+      
+  }
+  .shop {
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      padding-right: 205px;
+    background-color: transparent;
+    width: 380px;
+    height: 437px;
+    perspective: 1000px;
+    margin-top: 20px;
+    padding-right: 85px;
+    margin-right: 0;
+   
+  }
+
+  .shop img {
+    
+        width: 380px;
+        height: 437px;
+      
+  }
+  .top > .shop {
+    /* // display: grid;
+    // grid-template-rows: 1fr 1fr;
+    // grid-template-columns: 1fr 1fr 1fr; */
+    perspective: 1000px;
+    background-color: transparent;
+  }
+  
+  .shop-item__front {
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+  .shop:hover .shop-item__front {
+    transform: rotateY(180deg);
+  }
+  .shop:hover .shop-item__back {
+    transform: rotateX(0deg);
+  }
+  .shop-item__front,
+  .shop-item__back {
+    /* // grid-template-rows: 1fr;
+    // grid-template-columns: 1fr 1fr 1fr; */
+    position: absolute;
+    width: 380px;
+    height: 437px;
+    backface-visibility: hidden;
+  }
+  
+  .shop-item__back {
+    background-color: #504c65;
+    color: white;
+    transform: rotateX(-180deg);
+    width: 380px;
+    height: 437px;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+    display: grid;
+    grid-template-rows: 15px [title-s] 30px [title-e description-s] 1fr [description-e price-s] 25px [price-e footer-s] 65px [footer-e] 15px;
+    grid-template-columns: 15px [s] 1fr [e] 15px;
+    justify-items: start;
+    grid-row-gap: 7px;
+  }
+  .shop-item__back  > * {
+      grid-column: s/e;
+    }
+  
+    .shop-item__back__title {
+      margin-bottom: 350px;
+      grid-row: title-s/title-e;
+  
+      color: #F6FCFC;
+  
+      font-size: 16px;
+      font-weight: 500;
+    }
+  
+    .shop-item__back__description {
+      grid-row: description-s/description-e;
+  
+      font-size: 13px;
+      color: #F6FCFC;
+    }
+  
+    .shop-item__back__price {
+      grid-row: price-s/price-e;
+    }
+  
+    .shop-item__back__quantity {
+      grid-row: footer-s/footer-e;
+    }
+    .button {
+      justify-self: end;
+      grid-row: footer-s/footer-e;
+      height: 40px;
+      width: 97px;
+      border-radius: 20px;
+      color: #F6FCFC;
+      background-color: #A5D3CE;
+      font-weight: 600;
+      font-size: 12px;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+    
+  }
