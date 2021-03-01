@@ -1,7 +1,7 @@
 .checkout {
     display: flex;
     padding: 20px;
-    background-color: #F6FCFC;;
+  
     height: max-content;
 }
 
@@ -9,5 +9,5 @@
 .checkout__title {
     margin-right: 10px;
     padding: 10px;
-    border-bottom: 1px solid lightgray; 
+    border-bottom: 1px solid#F6FCFC; 
 }

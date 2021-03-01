@@ -7,10 +7,11 @@
     object-fit: contain;
     width: 200px;
     height: 200px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 50px;
 }
-
+h1 {
+    padding-top: -10px;
+}
 .login__container {
     width: 300px;
     height: fit-content;

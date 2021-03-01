@@ -45,12 +45,14 @@ function Header() {
         </Link>
         
         </div>
-
+<div className="header__cart">
         <Link to="/orders" className="Link">
+        
           <div className="header__option">
             <span className="header__optionLineOne"> Returns & Orders</span>
           </div>
         </Link>
+        </div>
         <Link to="/checkout">
           <div className="cart">
             <ShoppingBasketIcon />
@@ -59,6 +61,7 @@ function Header() {
             </span>
           </div>
         </Link>
+        
       </div>
       </div>
   );

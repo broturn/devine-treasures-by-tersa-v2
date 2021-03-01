@@ -1,7 +1,7 @@
 .Link {
     text-decoration: none;
     color: #A5D3CE;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     
 
 }
@@ -44,8 +44,10 @@ flex-direction: row;
   text-decoration: none;
   font-size: 40px;
   position: absolute;
-  left: 89%;
-  top: 1%;
+  width: 249px;
+height: 163px;
+  left: 15px;
+  top: 10px;
   color: #A5D3CE;
  
 }
@@ -53,7 +55,13 @@ flex-direction: row;
 .login__header :hover {
   color: #F6FCFC;
 }
-
+.header__cart {
+  position: absolute;
+width: 304px;
+height: 46px;
+left: 762px;
+top: 91px;
+}
 .header__optionLineTwo_header__basketCount {
 display: flex;
 }
@@ -68,5 +76,9 @@ display: flex;
 
 .header__nav {
   display: flex;
-
+  position: absolute;
+width: 366px;
+height: 46px;
+left: 396px;
+top: 91px;
 }

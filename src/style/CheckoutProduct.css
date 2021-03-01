@@ -11,10 +11,9 @@
 
 .checkoutProduct__info > button {
     background: #a5d3ce;
-    border: 1px solid;
+    border: none;
     margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+    color: #F6FCFC;
 }
 
 .checkoutProduct__image {
@@ -23,9 +22,6 @@
     height: 180px;
 }
 
-.checkoutProduct__rating {
-    display: flex;
-}
 
 .checkoutProduct__title {
     font-size: 17px;
